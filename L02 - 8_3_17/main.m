@@ -1,0 +1,20 @@
+clear;
+close all;
+t = -10:0.001:10;
+
+x1 = my_rect(t);
+x2 = my_tri(t);
+x3 = my_grad(t);
+x4 = my_sinc(t);
+%figure(1);
+%plot(t, x1);
+%figure(2);
+%plot(t, x2);
+%figure(3);
+%plot(t, x3);
+%figure(4);
+%plot(t, x4);
+subplot(2, 2, 1); plot(t, x1);
+subplot(2, 2, 2); plot(t, x2); 
+subplot(2, 2, 3); plot(t, x3); 
+subplot(2, 2, 4); plot(t, x4); 
