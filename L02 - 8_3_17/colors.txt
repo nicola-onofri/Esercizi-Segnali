@@ -1,7 +1,0 @@
-'k'  blacK
-'r'  Red
-'g'  Green
-'b'  Blue
-'m'  Magenta
-'c'  Cyan
-'w'  White
