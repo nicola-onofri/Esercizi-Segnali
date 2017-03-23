@@ -1,3 +1,3 @@
-function x = my_integral(x, dt)
-  x = sum(x)*dt;
+function x = my_integral(y, dt)
+  x = sum(y)*dt;
 end 
