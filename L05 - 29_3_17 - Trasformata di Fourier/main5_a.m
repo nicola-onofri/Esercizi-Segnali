@@ -36,7 +36,9 @@ subplot(3,1,1); plot(t,real(I_x1), 'Linewidth', 1.5);
 subplot(3,1,2); plot(t,real(I_x2), 'Linewidth', 1.5);
 subplot(3,1,3); plot(t,real(I_x3), 'Linewidth', 1.5);
 
-%Direct Transform cos
+% Fourier Transform cos
 figure();
 subplot(2,1,1); plot(f,real(X4), 'Linewidth', 1.5, 'r');
 subplot(2,1,2); plot(t,real(x4), 'Linewidth', 1.5);
+
+
