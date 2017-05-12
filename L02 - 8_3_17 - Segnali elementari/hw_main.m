@@ -29,3 +29,4 @@ x11 = x6-(t>1 & t<7).*x6;
 x12 = x7 + x11;
 
 subplot(2, 2, 4); plot(t, x10, 'Linewidth', 2);
+plot(t, x1.*x1);
